@@ -20,4 +20,22 @@ export const sliderItems = [
         bg: "fbf0f4",
         img: "https://sites.google.com/site/prirodanasevseegooglgfgf/_/rsrc/1463456237313/home/priroda_gory_nebo_ozero_oblaka_81150_1920x1080.jpg"
     }
+];
+
+export const categories = [
+    {
+        id: 1,
+        img: "https://cdn.azbyka.ru/wp-content/uploads/2016/07/priroda.jpg",
+        title: "SHIRT STYLE",
+    },
+    {
+        id: 1,
+        img: "https://bipbap.ru/wp-content/uploads/2017/04/priroda_kartinki_foto_03.jpg",
+        title: "LOUNGEWEAR LOVE",
+    },
+    {
+        id: 1,
+        img: "https://damion.club/uploads/posts/2021-12/1640300703_1-damion-club-p-bozhestvennaya-priroda-priroda-1.jpg",
+        title: "LIGHT JACKETS",
+    }
 ]
