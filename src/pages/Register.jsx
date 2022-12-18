@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { mobile } from "../responsive";
 
 const Container = styled.div`
     width: 100vw;
@@ -34,6 +35,7 @@ const Input = styled.input`
     min-width: 40%;
     margin: 20px 10px 0px 0px;
     padding: 10px;
+    ${mobile({width: "75%"})};
 `
 const Agreement = styled.span`
     font-size: 12px;
