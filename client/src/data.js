@@ -27,16 +27,19 @@ export const categories = [
         id: 1,
         img: "https://cdn.azbyka.ru/wp-content/uploads/2016/07/priroda.jpg",
         title: "SHIRT STYLE",
+        cat: "woman"
     },
     {
-        id: 1,
+        id: 2,
         img: "https://bipbap.ru/wp-content/uploads/2017/04/priroda_kartinki_foto_03.jpg",
         title: "LOUNGEWEAR LOVE",
+        cat:"coat"
     },
     {
-        id: 1,
+        id: 3,
         img: "https://damion.club/uploads/posts/2021-12/1640300703_1-damion-club-p-bozhestvennaya-priroda-priroda-1.jpg",
         title: "LIGHT JACKETS",
+        cat:"jeans"
     }
 ];
 
