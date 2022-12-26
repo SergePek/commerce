@@ -52,7 +52,7 @@ const Products = ({ cat, filters, sort }) => {
             );
         } else {
             setFilteredProducts((prev) =>
-                [...prev].sort((a, b) => b.price - a.price)
+                [...prev].sort((a, b) => b.createdAt - a.createdAt)
             );
         }
     }, [sort]);
